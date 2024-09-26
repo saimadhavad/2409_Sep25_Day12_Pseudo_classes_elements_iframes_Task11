@@ -1,0 +1,210 @@
+body {
+    background-color: #dfeff0;
+}
+.animeImages,.mobileImages,.ICTImages,.templesImages {
+    width: 300px;
+    height: 300px;
+}
+div {
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 15px;
+    box-shadow: 20px 20px 20px gray ;
+
+}
+nav{
+    text-align: center;
+    margin-top: 25px;
+}
+.navigation a{
+    /* background-color:cornflowerblue; */
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    border-radius: 5px;
+
+}
+a:hover{
+    background-color:chocolate;
+    color: white;
+}
+a:link{
+    color:red;
+}
+a:visited {
+    color: green;
+}
+a:active {
+    background-color: goldenrod;
+    color:black;
+}
+h1::first-letter {
+    color: #cb2f2f;
+    font-size: 3.5rem;
+}
+p::first-letter{
+    color: white;
+    font-size: 2rem;
+}
+h2::first-line{
+    background-color:darkgray;
+}
+p::selection{
+    background-color: seagreen;
+    color:#0a0a0a
+}
+.temples::after{
+    content: "🛕";
+}
+.anime::before {
+    content: "🎥";
+}
+.mobiles::after{
+    content: "📱";
+}
+.cricket::before {
+    content: "🏏";
+}
+.previewIframes::after{
+    content: url("./images/previewIcon.png");
+    margin: 10px;
+}
+/* Anime Series */
+.AOTDiv {
+    background-color: #bf4c4e;
+    color: #0a0a0a;
+}
+.OPDiv{
+    background-color: #7e6844;
+    color: #ffffff;
+}
+.haikyuuDiv{
+    background-color: #de7700;
+    color: #0a0a0a;
+}
+.bleachDiv{
+    background-color: #0a0a0a;
+    color: #ffffff;
+}
+#AOTImage:hover{
+    filter: blur(1px);
+}
+#OPImage:hover{
+    filter: sepia(100%);
+    
+}
+#haikyuuImage:hover{
+    filter: opacity(30%);
+}
+#bleachImage:hover{
+    filter:invert(150%)
+}
+
+/* Android mobiles */
+.samsungGalaxyS24UltraDiv {
+    background-color: #c5c0a2;
+    color: #ffffff;
+}
+.onePlus12Div{
+    background-color: #e0e1e3;
+    color: #0a0a0a;
+}
+.googlePixel9ProFoldDiv{
+    background-color: #e3935b;
+    color: #ffffff;
+}
+.nothingPhone2Div{
+    background-color: #83868f;
+    color: #0a0a0a;
+}
+#samsungGalaxyS24UltraImage:hover{
+    filter:hue-rotate(160deg)
+
+}
+#onePlus12Image:hover{
+    filter: drop-shadow(10px 10px 10px gray);  
+}
+#googlePixel9ProFoldImage:hover{
+    filter: none;
+    
+}
+#nothingPhone2Image:hover{
+    filter:brightness(150%) contrast(50%);
+}
+
+/* Indian Cricket Team */
+.MSDhoniDiv{
+    background-color: #ffcb05;
+
+}
+.viratKohliDiv{
+    background-color: #cb2f2f;
+    color: #dfeff0;
+    
+}
+.rohitSharmaDiv{
+    background-color: #153a75;
+    
+}
+.sanjuSamsonDiv{
+    background-color: #eb83b5;
+    color: #dfeff0;    
+}
+#MSDhoniImage:hover{
+    filter: drop-shadow(10px 10px 10px gray);
+    background-color: #175038;
+
+}
+#viratKohliImage:hover{
+    filter: brightness(150%);
+    background-color: burlywood;
+
+}
+#rohitSharmaImage:hover{
+    filter: contrast(300%);
+    background-color:cornflowerblue;
+
+
+}
+#sanjuSamsonImage:hover{
+    filter: grayscale(200%);
+    background-color: whitesmoke;
+}
+/* Temples in India */
+.trimbakeshwarTempleDiv{
+    background-color: #717076;
+    color: #dfeff0;  
+
+}
+.kanakaDurgaTempleDiv{
+    background-color: #403067;
+    
+}
+.shirdiTempleDiv{
+    background-color: #bf6635;
+    color: #dfeff0;  
+    
+}
+.tirupatitempleDiv{
+    background-color: #175038;
+    
+}
+#trimbakeshwarTempleImage:hover{
+    filter: opacity(0.8) contrast(50%);
+
+}
+#kanakaDurgaTempleImage:hover{
+    filter: opacity(0.6) contrast(50%);
+}
+#shirdiTempleImage:hover{ 
+    filter: opacity(1) contrast(50%);
+    
+}
+#tirupatiTempleImage:hover{
+    filter: opacity(0.8);
+    
+}
